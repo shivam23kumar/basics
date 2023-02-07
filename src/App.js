@@ -1,4 +1,5 @@
 import './App.css';
+import axios from "axios";
 import Products from "./components/Products/Products";
 import Header from "./components/Layout/Header";
 import Subheader from "./components/Layout/Subheader";
