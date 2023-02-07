@@ -1,9 +1,14 @@
 import './App.css';
+import Products from "./components/Products/Products";
+import Header from "./components/Layout/Header";
+import Subheader from "./components/Layout/Subheader";
 
-function App() {
+const  App = () => {
   return (
-    <div className="App">
-      <h1>Shri Ganeshay Namah</h1>
+    <div>
+      <Header />
+      <Subheader />
+      <Products />
     </div>
   );
 }
